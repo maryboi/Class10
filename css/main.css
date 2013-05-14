@@ -148,6 +148,7 @@ body{
 /*CONTENT AREA*/
 .middle{
     background: #f5f5f5;
+    padding-bottom: 2em;
 }
 .main {
     position: relative;
