@@ -92,12 +92,48 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   -webkit-box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   -ms-box-sizing:border-box;
+   box-sizing:border-box;
+   
+   body{
+        font-size: 10px;
+        padding: 0;
+        margin: 0;
+   }
 
+   .wrapper {
+        display: block;
+        padding: 0 1em;
+   }
 
+   .box {
+        width:100%;
+        max-width: 960px;
+        margin: 0 auto; 
+   }
+   
+   .feature {
+    position: relative;
+   }
+   
 
+   .feature img{
+    width: 100%;
 
+   }
 
-
+.feature h2 {
+    position: absolute;
+    width: 150px;
+    top:40%;
+    color:#fff;
+    background: rgba(0 0 0 0.3);
+    padding: 0.5em;
+    font-size: 2.4em
+    
+}
 
 
 
